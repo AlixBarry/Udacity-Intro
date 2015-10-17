@@ -1,0 +1,106 @@
+# Lesson 2.1: Introduction to Serious Programming
+
+# Programming is grounded in arithmetic, so it's important
+# to know how programming languages do simple math.
+# Thankfully, Python follows the same math rules people do.
+# See if you can predict the output of this code.
+
+# https://www.udacity.com/course/viewer#!/c-nd000/l-4180729266/m-48652460
+
+print 3
+print 1 + 1
+
+# Add your own code and notes here
+
+
+
+ What is a variable?
+ What does it mean to assign a value to a variable?
+ What is the difference between what the equals = means in math versus in programming. What's the difference between this: 2 + 3 = 5 and this: my_variable = 5?
+Also keep in mind that this is often the single most challenging concept for people learning to program. But If you ask questions and persevere, you will succeed.
+
+
+#Lesson 2.2: Variables
+
+# Programmers use variables to represent values in their code.
+# This makes code easier to read by telling others what values
+# mean. It also makes code easier to write by cutting down on
+# potentially complicated numbers that repeat in our code.
+
+# We sometimes call numbers without a variable "magic numbers"
+# It's best to reduce the amount of "magic numbers" in our code
+
+# https://www.udacity.com/course/viewer#!/c-nd000/l-4192698630/m-48660987
+
+speed_of_light = 299792458.0
+billionth = 1.0 / 1000000000.0
+nanostick = speed_of_light * billionth * 100
+print nanostick
+
+Assingment statement
+name = expression
+
+Variable can vary
+
+New assignments take precedence
+
+= does not mean equal
+
+= means assigment think of the = as an arrow!
+
+Always intro the variable before you use it
+
+e.g age = 38
+
+days_in_year = 365.25
+
+print age * days_in_year
+
+# Lesson 2.2: Strings
+
+# Strings are sequences of characters that are enclosed in quotes.
+# We can enclose them with single or double quotes and assign them
+# to variables. We can even combine strings by adding them (we call
+# this concatenation).
+
+# https://www.udacity.com/course/viewer#!/c-nd000/l-4192698630/m-48700403
+
+print 'Hello'
+print "Hello"
+
+hello = "Howdy"
+print hello
+
+#Strings are a sequence of characters surrounded by quotes.
+"I am a string!"
+You can use single or double quotes but if you start with a single you must end with often
+
+It is a convention not to start variables with a capital letter
+
+Augusta Ada King Countess of Lovelace was the first person to think about preogramming computers
+
++ on strongs means concatenation (pasting two strings together)
+
+e.g name = Alix
+
+print "hello " + name 
+
+remember the space between end letter and quotes or pythan wiill print HelloAlix
+
+You can not add a string and a number but you can multiply
+
+e.g print "1" * 10
+
+you get
+
+!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
